@@ -1,0 +1,28 @@
+{
+  "documents": [{
+      "id": "1",
+      "detectedLanguages": [{
+        "name": "English",
+        "iso6391Name": "en",
+        "score": 1
+      }]
+    },
+    {
+      "id": "2",
+      "detectedLanguages": [{
+        "name": "Spanish",
+        "iso6391Name": "es",
+        "score": 1
+      }]
+    },
+    {
+      "id": "3",
+      "detectedLanguages": [{
+        "name": "Chinese_Simplified",
+        "iso6391Name": "zh_chs",
+        "score": 1
+      }]
+    }
+  ],
+  "errors": []
+}
