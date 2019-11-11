@@ -4,7 +4,9 @@ const fetch = require('node-fetch');
 // Ocp-Apim-Subscription-Key
 function request(url, body) {
   console.log('doing request against', url);
-  return fetch(`${BASE_URL}/${url}`, {
+  // text/analytics/v2.1/keyPhrases | text/analytics/v2.0/sentiment | text/analytics/v2.1/languages
+
+  return fetch(`${BASE_URL}/${url}`, { 
       method: 'post',
       body: JSON.stringify(body),
       headers: {

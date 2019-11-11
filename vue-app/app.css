@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  background: blue;
+  color: white;
+  height: 25px;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu .item {
+  margin: 0px 20px;
+  line-height: 25px;
+
+}
+
+.menu .item a {
+  color: white;
+}
+
+.menu .item:hover {
+  cursor: hand;
+  text-decoration: underline;;
+}
